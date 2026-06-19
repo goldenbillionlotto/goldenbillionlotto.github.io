@@ -1,4 +1,4 @@
-Golden Billion Lotto (GBL$)FAA6C08B-2ACC-46EB-93FB-B34C81D443E8.png
+Golden Billion Lotto (GBL$)
 
 Welcome to the Future of Community Rewards on Solana
 
