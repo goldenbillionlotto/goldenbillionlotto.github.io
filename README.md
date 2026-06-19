@@ -1,15 +1,52 @@
-<h1>Golden Billion Lotto (GBL$)</h1>
+Golden Billion Lotto (GBL$)
 
-<p>Community-Driven Token on Solana</p>
+Welcome to the Future of Community Rewards on Solana
 
-<p>Contract Address:</p>
+Golden Billion Lotto (GBL$) is a community-driven token built on the Solana blockchain. Our vision is to create a transparent ecosystem that combines blockchain technology, community participation, and future reward opportunities.
 
-<p>EKvUhQUhc4DtG2cmznbhD6uLabKLL12y5awqDhGPpump</p>
+About GBL$
 
-<p>Official X:</p>
+Golden Billion Lotto was created to build a strong global community around a fair and transparent ecosystem powered by Solana.
 
-<p>https://x.com/gbl1b</p>
+Token Information
 
-<p>Official Telegram:</p>
+* Name: Golden Billion Lotto
+* Symbol: GBL$
+* Network: Solana
+* Total Supply: 1,000,000,000
 
-<p>https://t.me/GoldenBillionLotto</p>
+Contract Address
+
+EKvUhQUhc4DtG2cmznbhD6uLabKLL12y5awqDhGPpump
+
+Roadmap
+
+Phase 1
+
+* Token Launch
+* Website Launch
+* Community Growth
+
+Phase 2
+
+* Marketing Expansion
+* Strategic Partnerships
+* Increased Community Adoption
+
+Phase 3
+
+* Ecosystem Development
+* Utility Expansion
+* Global Growth
+
+Official Links
+
+X:
+https://x.com/gbl1b
+
+Telegram:
+https://t.me/GoldenBillionLotto
+
+Join the GBL$ Community
+
+Together we are building the future of Golden Billion Lotto.
