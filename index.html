@@ -85,9 +85,14 @@ Our vision is to create a transparent ecosystem where holders can participate in
 </div>
 <div class="section">
 <h2>Contract Address</h2>
-<p>
+
+<p id="contract">
 EKvUhQUhc4DtG2cmznbhD6uLabKLL12y5awqDhGPpump
 </p>
+
+<button class="button" onclick="copyContract()">
+Copy Address
+</button>
 </div>
 <div class="section">
 <h2>Roadmap</h2><div class="section">
@@ -104,4 +109,12 @@ and long-term community growth.
 </div>
 </div>
 </body>
+  <script>
+function copyContract() {
+navigator.clipboard.writeText(
+"EKvUhQUhc4DtG2cmznbhD6uLabKLL12y5awqDhGPpump"
+);
+alert("Contract Address Copied!");
+}
+</script>
 </html>
