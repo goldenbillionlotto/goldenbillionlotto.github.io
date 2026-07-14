@@ -102,6 +102,23 @@ Ask anything about GBL, our vision, roadmap, whitepaper, or community.
 
 <input id="question" placeholder="Ask GBL AI...">
 
+  <div style="margin-top:20px;margin-bottom:20px;">
+
+<p style="margin-bottom:10px;font-weight:bold;">
+✨ Popular Questions
+</p>
+
+<button onclick="quickQuestion('What is GBL?')">What is GBL?</button>
+
+<button onclick="quickQuestion('Explain the Whitepaper')">Whitepaper</button>
+
+<button onclick="quickQuestion('What makes GBL different?')">Why GBL?</button>
+
+<button onclick="quickQuestion('How do I buy GBL?')">How to Buy</button>
+
+<button onclick="quickQuestion('What is the roadmap?')">Roadmap</button>
+
+</div>
 <button onclick="askAI()">Ask GBL AI</button>
 
 <div class="answer" id="answer">
@@ -166,6 +183,13 @@ document.getElementById("answer").innerHTML=answer;
 
 }
 
+  function quickQuestion(q){
+
+document.getElementById("question").value=q;
+
+askAI();
+
+}
 </script>
 
 </body>
