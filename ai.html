@@ -1,1 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GBL Help Center</title>
+<style>
+    *{ margin:0; padding:0; box-sizing:border-box; font-family:Arial, sans-serif; }
+    body{ background:linear-gradient(135deg,#0b1020,#13294b,#1f5fbf); color:white; display:flex; justify-content:center; align-items:center; min-height:100vh; padding:20px; }
+    .container{ width:100%; max-width:700px; background:rgba(255,255,255,.08); backdrop-filter:blur(12px); border-radius:25px; padding:40px; box-shadow:0 20px 50px rgba(0,0,0,.4); text-align:center; }
+    h1{ font-size:36px; margin-bottom:15px; }
+    p{ font-size:18px; opacity:.8; margin-bottom:30px; }
+    .btn-grid{ display:grid; grid-template-columns:1fr; gap:15px; margin-bottom:30px; }
+    button{ background:#4da3ff; color:white; border:none; padding:15px; border-radius:12px; font-size:16px; cursor:pointer; transition:.3s; }
+    button:hover{ background:#357abd; transform:scale(1.02); }
+    .answer{ background:rgba(0,0,0,.3); padding:25px; border-radius:15px; font-size:18px; line-height:1.6; min-height:120px; border:1px solid rgba(255,255,255,.1); }
+    .footer{ margin-top:35px; font-size:14px; opacity:.6; }
+</style>
+</head>
+<body>
 
+<div class="container">
+    <h1>📘 GBL Help Center</h1>
+    <p>Select a topic below to get instant information about our ecosystem.</p>
+
+    <div class="btn-grid">
+        <button onclick="showInfo('what')">What is GBL?</button>
+        <button onclick="showInfo('whitepaper')">Read Whitepaper Summary</button>
+        <button onclick="showInfo('buy')">How to Buy GBL</button>
+        <button onclick="showInfo('roadmap')">Project Roadmap</button>
+    </div>
+
+    <div class="answer" id="answer">
+        Select an option above to view details.
+    </div>
+
+    <div class="footer">Golden Billion Lotto © 2026</div>
+</div>
+
+<script>
+function showInfo(topic){
+    const answers = {
+        'what': 'Golden Billion Lotto (GBL) is a community-driven Solana project focused on transparency, long-term growth, and delivering real value to its holders through innovative products.',
+        'whitepaper': 'Our Whitepaper outlines our vision: creating a transparent, secure, and rewarding ecosystem on Solana with a focus on long-term development.',
+        'buy': 'You can buy GBL on decentralized exchanges (DEX) on the Solana network. Ensure you use our official contract address to avoid scams.',
+        'roadmap': 'We are currently focused on community growth, product development, and expanding our ecosystem utility. Stay tuned for exciting updates!'
+    };
+    document.getElementById("answer").innerText = answers[topic];
+}
+</script>
+
+</body>
+</html>
